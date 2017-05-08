@@ -22,10 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
@@ -43,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
     vendor/xiaomi/lithium/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/xiaomi/lithium/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/lithium/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/xiaomi/lithium/proprietary/etc/permissions/com.xiaomi.sensor.xml:system/etc/permissions/com.xiaomi.sensor.xml \
     vendor/xiaomi/lithium/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/lithium/proprietary/lib/libcalapi.so:system/lib/libcalapi.so \
@@ -124,8 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
     vendor/xiaomi/lithium/proprietary/etc/camera/s5k3p3_qtech_chromatix.xml:system/etc/camera/s5k3p3_qtech_chromatix.xml \
     vendor/xiaomi/lithium/proprietary/etc/camera/s5k3p3sm_chromatix.xml:system/etc/camera/s5k3p3sm_chromatix.xml \
-    vendor/xiaomi/lithium/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/xiaomi/lithium/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/lithium/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/lithium/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/xiaomi/lithium/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -218,21 +213,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/lithium/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/lithium/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/xiaomi/lithium/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/backlight.ko:system/lib/modules/backlight.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/generic_bl.ko:system/lib/modules/generic_bl.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/wlan.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
-    vendor/xiaomi/lithium/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
+    vendor/xiaomi/lithium/proprietary/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/xiaomi/lithium/proprietary/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/xiaomi/lithium/proprietary/lib/libaptXScheduler.so:system/lib/libaptXScheduler.so \
     vendor/xiaomi/lithium/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/lithium/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/xiaomi/lithium/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
@@ -250,6 +233,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
@@ -394,6 +378,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libactuator_dw9763_a8_o-film.so:system/vendor/lib/libactuator_dw9763_a8_o-film.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libactuator_dw9763_a8_qtech.so:system/vendor/lib/libactuator_dw9763_a8_qtech.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
@@ -486,30 +471,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_hvx_zzHDR.so:system/vendor/lib/libmmcamera_hvx_zzHDR.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so:system/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx258_mono_ofilm.so:system/vendor/lib/libmmcamera_imx258_mono_ofilm.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx258_mono.so:system/vendor/lib/libmmcamera_imx258_mono.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx258_ofilm.so:system/vendor/lib/libmmcamera_imx258_ofilm.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx268_primax_eeprom.so:system/vendor/lib/libmmcamera_imx268_primax_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx268.so:system/vendor/lib/libmmcamera_imx268.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx268_sunny_eeprom.so:system/vendor/lib/libmmcamera_imx268_sunny_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx268_sunny.so:system/vendor/lib/libmmcamera_imx268_sunny.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx298_liteon.so:system/vendor/lib/libmmcamera_imx298_liteon.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx298_semco.so:system/vendor/lib/libmmcamera_imx298_semco.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx298.so:system/vendor/lib/libmmcamera_imx298.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx318_primax_eeprom.so:system/vendor/lib/libmmcamera_imx318_primax_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx318_primax.so:system/vendor/lib/libmmcamera_imx318_primax.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx318_semco_eeprom.so:system/vendor/lib/libmmcamera_imx318_semco_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx318_semco.so:system/vendor/lib/libmmcamera_imx318_semco.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx318.so:system/vendor/lib/libmmcamera_imx318.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx362.so:system/vendor/lib/libmmcamera_imx362.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx378_liteon.so:system/vendor/lib/libmmcamera_imx378_liteon.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx378_semco.so:system/vendor/lib/libmmcamera_imx378_semco.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_imx378.so:system/vendor/lib/libmmcamera_imx378.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_isp_abf47.so:system/vendor/lib/libmmcamera_isp_abf47.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:system/vendor/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
@@ -551,27 +512,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_isp_snr47.so:system/vendor/lib/libmmcamera_isp_snr47.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:system/vendor/lib/libmmcamera_le2464c_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:system/vendor/lib/libmmcamera_le2464c_master_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_a4_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_a4_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:system/vendor/lib/libmmcamera_ov2685_scv3b4035.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov2685.so:system/vendor/lib/libmmcamera_ov2685.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov4688_a7.so:system/vendor/lib/libmmcamera_ov4688_a7.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov4688_b7_eeprom.so:system/vendor/lib/libmmcamera_ov4688_b7_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov4688_b7.so:system/vendor/lib/libmmcamera_ov4688_b7.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov4688_primax_a7.so:system/vendor/lib/libmmcamera_ov4688_primax_a7.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov4688_primax_b7.so:system/vendor/lib/libmmcamera_ov4688_primax_b7.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov4688_primax.so:system/vendor/lib/libmmcamera_ov4688_primax.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov5675_primax.so:system/vendor/lib/libmmcamera_ov5675_primax.so \
    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov5675_primax_a3_default_preview.so:system/vendor/lib/libchromatix_ov5675_primax_a3_default_preview.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov5675_primax_a3_default_video.so:system/vendor/lib/libchromatix_ov5675_primax_a3_default_video.so \
@@ -599,7 +539,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov5675_primax_video_full.so:system/vendor/lib/libchromatix_ov5675_primax_video_full.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov5675_primax_zsl_preview.so:system/vendor/lib/libchromatix_ov5675_primax_zsl_preview.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov5675_primax_zsl_video.so:system/vendor/lib/libchromatix_ov5675_primax_zsl_video.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov16880.so:system/vendor/lib/libmmcamera_ov16880.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov16880_ofilm_eeprom.so:system/vendor/lib/libmmcamera_ov16880_ofilm_eeprom.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov16880_common.so:system/vendor/lib/libchromatix_ov16880_common.so \
@@ -625,7 +564,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov16880_snapshot.so:system/vendor/lib/libchromatix_ov16880_snapshot.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov16880_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov16880_zsl_preview_3a.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov16880_zsl_video_3a.so:system/vendor/lib/libchromatix_ov16880_zsl_video_3a.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
@@ -643,15 +581,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_s5k3p3_qtech.so:system/vendor/lib/libmmcamera_s5k3p3_qtech.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_s5k3p3sm.so:system/vendor/lib/libmmcamera_s5k3p3sm.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:system/vendor/lib/libmmcamera_sony_imx378_eeprom.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sunny_a16s05e_eeprom.so:system/vendor/lib/libmmcamera_sunny_a16s05e_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
@@ -702,7 +632,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
@@ -852,6 +781,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/xiaomi/lithium/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/lithium/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/xiaomi/lithium/proprietary/etc/thermal-engine-8996-a1.conf:system/etc/thermal-engine-8996-a1.conf \
+    vendor/xiaomi/lithium/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
     vendor/xiaomi/lithium/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/xiaomi/lithium/proprietary/etc/mixer_paths_tasha_8.2.xml:system/etc/mixer_paths_tasha_8.2.xml \
     vendor/xiaomi/lithium/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
@@ -886,28 +817,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
     vendor/xiaomi/lithium/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
     vendor/xiaomi/lithium/proprietary/lib64/hw/audio_policy.default.so:system/lib64/hw/audio_policy.default.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
-    vendor/xiaomi/lithium/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
-    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so \
     vendor/xiaomi/lithium/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/xiaomi/lithium/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/xiaomi/lithium/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
@@ -937,8 +846,233 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/lib64/libOpenMAXAL.so:system/lib64/libOpenMAXAL.so \
     vendor/xiaomi/lithium/proprietary/lib64/libOpenSLES.so:system/lib64/libOpenSLES.so \
     vendor/xiaomi/lithium/proprietary/lib64/libvulkan.so:system/lib64/libvulkan.so \
-	
-	
+    vendor/xiaomi/lithium/proprietary/lib64/libCameraEffectJNI.so:system/lib64/libCameraEffectJNI.so \
+    vendor/xiaomi/lithium/proprietary/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_cpp_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_cpp_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_cpp_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_cpp_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_default_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_default_preview_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_default_video.so:system/vendor/lib/libchromatix_s5k3l8_default_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_default_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_default_video_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_common.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_preview_dw9763.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_video_dw9763.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_60_dw9763.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_90_dw9763.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_120_dw9763.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_postproc.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_video_dw9763.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_hfr_60_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_hfr_90_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_hfr_120_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_common.so:system/vendor/lib/libchromatix_s5k3l8_mono_common.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_mono_cpp_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_mono_cpp_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_mono_cpp_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_mono_cpp_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_mono_cpp_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_mono_cpp_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_mono_cpp_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_default_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_default_preview_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_default_video.so:system/vendor/lib/libchromatix_s5k3l8_mono_default_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_default_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_default_video_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_mono_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_hfr_60_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_hfr_60_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_mono_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_hfr_90_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_hfr_90_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_mono_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_hfr_120_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_hfr_120_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_postproc.so:system/vendor/lib/libchromatix_s5k3l8_mono_postproc.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_preview.so:system/vendor/lib/libchromatix_s5k3l8_mono_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_mono_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_zsl_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_zsl_preview_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_mono_zsl_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_zsl_video_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_postproc.so:system/vendor/lib/libchromatix_s5k3l8_postproc.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_preview.so:system/vendor/lib/libchromatix_s5k3l8_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_common.so:system/vendor/lib/libchromatix_s5k3m2xm_common.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_preview_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_default_preview_dw9761b.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video.so:system/vendor/lib/libchromatix_s5k3m2xm_default_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_default_video_dw9761b.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_60_dw9761b.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_90_dw9761b.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_120_dw9761b.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_postproc.so:system/vendor/lib/libchromatix_s5k3m2xm_postproc.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_preview.so:system/vendor/lib/libchromatix_s5k3m2xm_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xm_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_video_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_zsl_video_dw9761b.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_common.so:system/vendor/lib/libchromatix_s5k3m2xx_common.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_postproc.so:system/vendor/lib/libchromatix_s5k3m2xx_postproc.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:system/vendor/lib/libchromatix_s5k3p3_common.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3_cpp_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3_cpp_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_default_preview_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_default_preview_dw9800.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_default_video.so:system/vendor/lib/libchromatix_s5k3p3_default_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_default_video_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_default_video_dw9800.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_hfr_60_dw9800.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_hfr_90_dw9800.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120_dw9800.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:system/vendor/lib/libchromatix_s5k3p3_postproc.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_preview.so:system/vendor/lib/libchromatix_s5k3p3_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_common.so:system/vendor/lib/libchromatix_s5k3p3_qtech_common.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_qtech_cpp_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_qtech_cpp_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_qtech_cpp_hfr_120.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_qtech_cpp_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3_qtech_cpp_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_qtech_cpp_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3_qtech_cpp_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_default_preview.so:system/vendor/lib/libchromatix_s5k3p3_qtech_default_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_default_video.so:system/vendor/lib/libchromatix_s5k3p3_qtech_default_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_qtech_hfr_60.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_hfr_60_3a.so:system/vendor/lib/libchromatix_s5k3p3_qtech_hfr_60_3a.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_qtech_hfr_90.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_hfr_90_3a.so:system/vendor/lib/libchromatix_s5k3p3_qtech_hfr_90_3a.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_qtech_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k3p3_qtech_hfr_120_3a.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_postproc.so:system/vendor/lib/libchromatix_s5k3p3_qtech_postproc.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_preview.so:system/vendor/lib/libchromatix_s5k3p3_qtech_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_qtech_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_zsl_preview.so:system/vendor/lib/libchromatix_s5k3p3_qtech_zsl_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_qtech_zsl_video.so:system/vendor/lib/libchromatix_s5k3p3_qtech_zsl_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_common.so:system/vendor/lib/libchromatix_s5k3p3sm_common.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_liveshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_default_preview_3a.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_video.so:system/vendor/lib/libchromatix_s5k3p3sm_default_video.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_default_video_3a.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_fullsize_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_fullsize_preview_3a.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_fullsize_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_fullsize_video_3a.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_postproc.so:system/vendor/lib/libchromatix_s5k3p3sm_postproc.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_preview.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3sm_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_snapshot.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libmmcamera2_memleak.so:system/vendor/lib64/libmmcamera2_memleak.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/xiaomi/lithium/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
+    vendor/xiaomi/lithium/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so
+   
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libloc_api_v02 \
@@ -953,6 +1087,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     QtiTetherService \
+    CNEService \
+    com.qualcomm.location \
     colorservice \
     ims \
     imssettings \
